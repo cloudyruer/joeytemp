@@ -14,7 +14,7 @@ npm install -g https://github.com/cloudyruer/joeytemp.git
 joeytemp createFast
 ```
 
-### Default:
+## Default:
 
 ```
 joeytemp folderName
@@ -28,7 +28,7 @@ joeytemp folderName
 | .prettierrc |
 | .gitignore  |
 
-### folderName -one:
+## folderName -one:
 
 ```
 joeytemp folderName -one
@@ -38,7 +38,7 @@ joeytemp folderName -one
 | :--------: |
 | index.html |
 
-### folderName -jq:
+## folderName -jq:
 
 ```
 joeytemp folderName -jq
@@ -54,7 +54,7 @@ joeytemp folderName -jq
 |   .prettierrc   |
 |   .gitignore    |
 
-### folderName -bs:
+## folderName -bs:
 
 ```
 joeytemp folderName -bs
