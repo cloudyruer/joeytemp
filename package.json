@@ -1,0 +1,16 @@
+{
+  "name": "joeytemp",
+  "version": "1.0.0",
+  "description": "create project faster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joey",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "fse": "^4.0.1",
+    "jquery": "^3.6.0"
+  }
+}
