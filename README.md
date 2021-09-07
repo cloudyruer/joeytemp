@@ -28,7 +28,7 @@ joeytemp folderName
 | .prettierrc |
 | .gitignore  |
 
-## folderName -one:
+## folderName -one: only one html file (with css && js)
 
 ```
 joeytemp folderName -one
@@ -38,11 +38,10 @@ joeytemp folderName -one
 | :--------: |
 | index.html |
 
-## folderName -jq:
+## folderName -jq: with jQuery 3.6
 
 ```
 joeytemp folderName -jq
-
 ```
 
 |   folderName    |
@@ -54,7 +53,7 @@ joeytemp folderName -jq
 |   .prettierrc   |
 |   .gitignore    |
 
-## folderName -bs:
+## folderName -bs: with jQuery 3.6 & bootstrap 4.6
 
 ```
 joeytemp folderName -bs
