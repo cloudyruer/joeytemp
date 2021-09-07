@@ -1,5 +1,7 @@
 # joeytemp
 
+Create project folder and files with only **ONE** command =)
+
 ## Install
 
 ```
@@ -11,7 +13,7 @@ npm install -g https://github.com/cloudyruer/joeytemp.git
 ### Try This First =)
 
 ```
-joeytemp createFast
+joeytemp createFast -one
 ```
 
 ## Default:
@@ -68,3 +70,9 @@ joeytemp folderName -bs
 |    script.js    |
 |   .prettierrc   |
 |   .gitignore    |
+
+## Uninstall
+
+```
+npm uninstall -g joeytemp
+```
