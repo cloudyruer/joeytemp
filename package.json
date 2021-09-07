@@ -7,7 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joey",
+  "bin": {
+    "joeytemp": "index.js"
+  },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudyruer/joeytemp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudyruer/joeytemp/issues"
+  },
+  "homepage": "https://github.com/cloudyruer/joeytemp#readme",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "fse": "^4.0.1",
