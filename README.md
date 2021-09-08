@@ -16,37 +16,49 @@ npm install -g https://github.com/cloudyruer/joeytemp.git
 joeytemp createFast -one
 ```
 
-## Default:
+## Default
 
 ```
 joeytemp folderName
 ```
 
-| folderName  |
-| :---------: |
-| index.html  |
-|  style.css  |
-|  script.js  |
-| .prettierrc |
-| .gitignore  |
+| **folderName** |
+| :------------: |
+|   index.html   |
+|   style.css    |
+|   script.js    |
+|  .prettierrc   |
+|   .gitignore   |
 
-## folderName -one: only one html file (with css && js)
+## Only one html file (with css && js)
 
 ```
 joeytemp folderName -one
 ```
 
-| folderName |
-| :--------: |
-| index.html |
+| **folderName** |
+| :------------: |
+|   index.html   |
 
-## folderName -jq: with jQuery 3.6
+## Best Friend For Node
+
+```
+joeytemp folderName -app
+```
+
+| **folderName** |
+| :------------: |
+|    index.js    |
+|  package.json  |
+|   .gitignore   |
+
+## With jQuery 3.6
 
 ```
 joeytemp folderName -jq
 ```
 
-|   folderName    |
+| **folderName**  |
 | :-------------: |
 |   index.html    |
 |    style.css    |
@@ -55,13 +67,13 @@ joeytemp folderName -jq
 |   .prettierrc   |
 |   .gitignore    |
 
-## folderName -bs: with jQuery 3.6 & bootstrap 4.6
+## With jQuery 3.6 & bootstrap 4.6
 
 ```
 joeytemp folderName -bs
 ```
 
-|   folderName    |
+| **folderName**  |
 | :-------------: |
 |   index.html    |
 | bootstrap (4.6) |

@@ -14,10 +14,10 @@ try {
     throw new Error('Project Folder Name Missing');
 
   // guard flags
-  const flags = ['-one', '-jq', '-bs'];
+  const flags = ['-one', '-jq', '-bs', '-app'];
   if (process.argv[3] && !flags.includes(process.argv[3]))
     throw new Error(
-      'Invalid Flag Format. Flag(Optional) could be either -one, -jq, -bs'
+      'Invalid Flag Format. Flag(Optional) could be either -one, -jq, -bs, -app'
     );
 
   const folderName = process.argv[2];
@@ -42,6 +42,27 @@ try {
       `${folderName}/index.html`
     );
     return console.log('Done -one');
+  }
+
+  // -app
+  if (flag === '-app') {
+    const tempJSON = `{
+  "name": "${folderName}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\"Error: no test specified\\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}`;
+    fs.writeFileSync(`${folderName}/package.json`, tempJSON);
+    fs.writeFileSync(`${folderName}/index.js`, '');
+    fs.writeFileSync(`${folderName}/.gitignore`, '.vscode\nnode_modules');
+
+    return console.log('Done -app');
   }
 
   // default
